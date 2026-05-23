@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../../components/Navbar';
 
-const GOLD = 'var(--gold)';
+
 
 const sidebarSections = [
   { section: 'Overview', items: [{ icon: '📊', label: 'Dashboard', route: '/legal', active: true }] },

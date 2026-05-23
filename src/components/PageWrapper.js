@@ -3,7 +3,7 @@ import { useTheme } from '../context/ThemeContext';
 
 export default function PageWrapper({ children, style = {}, green = false }) {
   const ref = useRef();
-  const { isDark } = useTheme();
+  useTheme();
 
   useEffect(() => {
     if (ref.current) {
